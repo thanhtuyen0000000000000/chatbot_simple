@@ -135,10 +135,10 @@ def retrieve_answer(question):
 
 
 st.set_page_config(
-    page_title="Chatbot giống ChatGPT",
+    page_title="Chatbot du lịch",
     initial_sidebar_state="expanded"
 )
-st.title("Chatbot giống ChatGPT")
+st.title("Chatbot du lịch")
 
 # Input for the user's question
 question = st.chat_input("Hỏi gì đó:")
